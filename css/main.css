@@ -1,0 +1,91 @@
+/*Included Fonts */
+@font-face{
+font-family: Lato-Light;
+src: local('☺'),
+url('../font/Lato-Light.ttf') format("truetype");
+     /*url('/font/Lato_Light.eot');  IE9 */
+}
+
+@font-face{
+font-family: Lato-Hairline;
+src: local('☺'),
+        url('../font/Lato-Hairline.ttf') format("truetype");
+     /*url('/font/Lato_Hairline.eot');  IE9 */
+}
+
+.body{
+    font-size: 14px;
+}
+
+.header-navigation a{
+    color: #c2ccd2;
+    text-decoration: none;
+}
+.header-navigation a:hover{
+    text-decoration: none;
+}
+
+.header-navigation nav{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.header-navigation ul{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    padding-left: 8px;
+}
+.header-navigation ul li { 
+    display: inline; 
+    margin-right: 50px;
+    font-family: Lato-Light;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+/*Bootstrap overrides*/
+
+.divider{
+    border-top: 1px solid #b3c4ce;
+    opacity: 0.1;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.navbar-inverse{
+    background-color:#5c6775;
+    border:none;
+    opacity: 0.8;
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.navbar-brand{
+    /*color:#e6ebee;*/
+    font-family: Lato-Light;
+    font-size: 13px;
+}
+
+/* Standard overrides */
+
+h1{
+    font-family: Lato-Hairline;
+    text-transform:uppercase;
+    font-size: 90px;
+    color: #c2ccd2;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    line-height: 1.1em;
+}
+
+/* Page CSS */
+
+.content-blocks{
+    margin-top: 90px;
+}
+
+.content-block{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    /*border-bottom: 1px solid #a2adb5;*/
+}
