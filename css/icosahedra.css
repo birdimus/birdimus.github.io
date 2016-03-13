@@ -120,7 +120,7 @@
 }
 
 
-@media (min-width: 800px){
+
 	.navigation{
 		float: left;
 
@@ -130,7 +130,7 @@
 		padding-bottom: 25px;
 	}
 	
-}
+
 
 h1.heading{
 	font-family: "Gill Sans","Helvetica Neue",Helvetica,"Century Gothic",Arial,sans-serif;
