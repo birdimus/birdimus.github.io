@@ -16,7 +16,7 @@
 }
 
 .navbar{
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	min-height: 60px;
 	margin-bottom: 20px;
@@ -120,7 +120,7 @@
 }
 
 
-
+@media (min-width: 800px){
 	.navigation{
 		float: left;
 
@@ -130,7 +130,7 @@
 		padding-bottom: 25px;
 	}
 	
-
+}
 
 h1.heading{
 	font-family: "Gill Sans","Helvetica Neue",Helvetica,"Century Gothic",Arial,sans-serif;
